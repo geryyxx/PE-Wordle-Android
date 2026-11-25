@@ -2,6 +2,8 @@
 
 A native Android word-guessing game inspired by Wordle, developed in Java as part of a university mobile programming course at the University of Pannonia.
 
+The application includes multilingual support, dark mode, configurable difficulty settings and persistent player statistics.
+
 ## Overview
 
 The application challenges players to guess a five-letter word within a limited number of attempts. Color-coded feedback helps players identify correct letters and their positions.
@@ -18,6 +20,19 @@ The application challenges players to guess a five-letter word within a limited 
 - Customizable difficulty with 3–10 attempts
 - Player statistics
 - Persistent settings and statistics using SharedPreferences
+
+## Screenshots
+
+<p align="center">
+  <img src="images/main-menu.png" alt="Main Menu" width="220"/>
+  <img src="images/gameplay-hu.png" alt="Gameplay Hungarian" width="220"/>
+  <img src="images/gameplay-en.png" alt="Gameplay English" width="220"/>
+</p>
+
+<p align="center">
+  <img src="images/stats.png" alt="Statistics" width="220"/>
+  <img src="images/settings.png" alt="Settings" width="220"/>
+</p>
 
 ## Technologies
 
