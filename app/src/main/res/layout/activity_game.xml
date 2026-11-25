@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_gravity="start" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="44dp">
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="W"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="#4CAF50" />
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="O"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="#FBC02D"
+                android:layout_marginStart="6dp" />
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="R"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="#757575"
+                android:layout_marginStart="6dp" />
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="D"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="#4CAF50"
+                android:layout_marginStart="6dp" />
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="L"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="#FBC02D"
+                android:layout_marginStart="6dp" />
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="E"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:background="#4CAF50"
+                android:layout_marginStart="6dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resultsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginBottom="22dp" />
+
+        <EditText
+            android:id="@+id/inputWord"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="@string/hint_word"
+            android:singleLine="true"
+            android:maxLength="5"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/guessButton"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="@string/guess"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50" />
+
+            <Button
+                android:id="@+id/newGameButton"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="@string/newgame"
+                android:layout_marginStart="12dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_help"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

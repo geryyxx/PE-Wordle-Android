@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Wordle</string>
+    <string name="title">Wordle</string>
+    <string name="hint_word">Írj be egy 5 betűs szót</string>
+    <string name="guess">Tipp</string>
+    <string name="win">Nyertél! A szó:</string>
+    <string name="lose">Vesztettél! A szó:</string>
+    <string name="remaining">Hátralévő próbálkozások:</string>
+    <string name="start_text">Találd ki az 5 betűs szót!</string>
+    <string name="error_length">Pontosan 5 betűs szó kell!</string>
+    <string name="newgame">Új játék</string>
+    <string name="games">Játékok:</string>
+    <string name="wins">Győzelmek:</string>
+    <string name="losses">Vereségek:</string>
+    <string name="stats">📊 Statisztika</string>
+    <string name="settings">⚙️ Beállítások</string>
+    <string name="play">▶️ Játék</string>
+    <string name="settings_saved">Beállítások mentve!</string>
+    <string name="english">Angol</string>
+    <string name="hungarian">Magyar</string>
+    <string name="save">Mentés</string>
+    <string name="example">Pl. 6</string>
+    <string name="dark_mode">Sötét mód</string>
+    <string name="winrate">Győzelmi ráta:</string>
+    <string name="back">← Vissza</string>
+    <string name="language">Nyelv</string>
+    <string name="language_desc">Válaszd ki a nyelvet</string>
+    <string name="display">Megjelenés</string>
+    <string name="about">Névjegy</string>
+    <string name="version">Verzió</string>
+    <string name="display_desc">Válaszd ki az alkalmazás megjelenését</string>
+    <string name="attempt_count">Maximum próbálkozások száma</string>
+    <string name="avg_attempts">Átlagos próbálkozások:</string>
+    <string name="color_help">Zöld: jó helyen • Sárga: rossz helyen • Szürke: nincs a szóban</string>
+</resources>
